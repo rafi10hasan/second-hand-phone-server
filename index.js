@@ -340,7 +340,7 @@ app.get("/", async (req, res) => {
   res.send("second hand phone server is running");
 });
 
-app.listen(port, () => console.log(`second hand phone running on is${port}`));
+app.listen(port, () => console.log(`second hand phone running on is the is${port}`));
 
 
 
