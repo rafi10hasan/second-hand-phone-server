@@ -337,10 +337,10 @@ run().catch(console.log);
 
 //Basic server start
 app.get("/", async (req, res) => {
-  res.send("second hand phone server is running");
+  res.send("second hand phone server is running now");
 });
 
-app.listen(port, () => console.log(`second hand phone running on is the is the the the the${port}`));
+app.listen(port, () => console.log(`second hand phone running on ${port}`));
 
 
 
